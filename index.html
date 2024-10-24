@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerConnect</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>CareerConnect</h2>
+        </div>
+        <div class="nav-buttons">
+            <a href="login.html" class="btn-login">Login</a>
+            <a href="signup.html" class="btn-signup">Signup</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Find Your Dream Job</h1>
+            <p>Browse through the latest job recommendations and find your match.</p>
+        </header>
+        
+        <div class="controls">
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search job titles..." />
+            </div>
+            <div class="filter">
+                <label for="job-type">Filter by Job Type: </label>
+                <select id="job-type">
+                    <option value="all">All</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">Manager</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="job-list" id="job-list"></div>
+    </div>
+
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
