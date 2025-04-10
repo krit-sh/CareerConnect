@@ -60,7 +60,7 @@ npm install
    - Copy `frontend/.env.example` to `frontend/.env`
    - Fill in your API keys and configuration
 
-### Running Locally
+### Running the Application
 
 1. Start the backend server:
 ```bash
@@ -72,6 +72,11 @@ flask run
 ```bash
 cd frontend
 npm run dev
+```
+
+3. Open your browser and navigate to:
+```
+http://localhost:5173
 ```
 
 ## Environment Variables
